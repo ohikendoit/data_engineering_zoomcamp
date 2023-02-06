@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 yellow_tripdata_2022-01.csv
 yellow_tripdata_2022-01.parquet
 taxi_zone_lookup.csv
+=======
+*.parquet
+*.csv
+>>>>>>> 3c68cd4 (adding item to gitignore)

@@ -3,6 +3,15 @@
 
 import os
 import argparse
+import subprocess
+import sys
+
+try:
+    import pandas as pd
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", 'psycopg2-binary'])
+finally:
+    import psycopg2
 
 from time import time
 

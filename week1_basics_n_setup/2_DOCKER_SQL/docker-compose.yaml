@@ -1,4 +1,5 @@
 services:
+  #Service 1
   pgdatabase:
     image: postgres:13
     environment:
@@ -9,6 +10,7 @@ services:
       - "./ny_taxi_postgres_data:/var/lib/postgresql/data:rw"
     ports:
       - "5432:5432"
+  #Service 2
   pgadmin:
     image: dpage/pgadmin4
     environment:

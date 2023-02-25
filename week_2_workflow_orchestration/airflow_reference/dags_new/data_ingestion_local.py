@@ -16,7 +16,8 @@ local_workflow = DAG(
 
 #Change the url to a functioning one
 URL_PREFIX = 'https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow'
-URL_TEMPLATE = URL_PREFIX + '/yellow_tripdata_2021-01.csv.gz'
+URL_TEMPLATE = URL_PREFIX + '/yellow_tripdata_{{ execution_date.strftime(\'%y-%m\') }}.csv.gz'
+OUTPUT_FILE_TEMPLATE = AIRFLOW_HOME + '/output_{{ execution_date.strftime(\'%Y-%m\') }}.csv.gz'
 
 
 with local_workflow:
@@ -25,7 +26,7 @@ with local_workflow:
     wget_task = BashOperator(
         task_id = 'wget',
         #bash_command = f'wget {url} -O {AIRFLOW_HOME}/output.csv"
-        #bash_command='echo "{{ execution_date.strftime(\'%Y-%m') }}"'
+        bash_command='echo "{{ execution_date.strftime(\'%Y-%m') }}"'
     )
 
     #second component - ingest data

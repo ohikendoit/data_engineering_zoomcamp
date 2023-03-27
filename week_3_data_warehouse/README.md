@@ -1,0 +1,1 @@
+Load files directly to GCS, without Airflow. Downloads CSV files from https://nyc-tlc.s3.amazonaws.com/trip+data/ and uploads them to your Cloud Storage Account as parquet files.

@@ -3,11 +3,11 @@ services:
   pgdatabase:
     image: postgres:13
     environment:
-      - POSTGRES_USER=root
-      - POSTGRES_PASSWORD=root
-      - POSTGRES_DB=ny_taxi
+      - POSTGRES_USER: airflow
+      - POSTGRES_PASSWORD: airflow
+      - POSTGRES_DB: airflow
     volumes:
-      - "./ny_taxi_postgres_data:/var/lib/postgresql/data:rw"
+      - postgres-db-volume:/var/lib/postgresql/data
     ports:
       - "5432:5432"
   #Service 2
@@ -18,4 +18,3 @@ services:
       - PGADMIN_DEFAULT_PASSWORD=root
     ports:
       - "8080:80"
-    

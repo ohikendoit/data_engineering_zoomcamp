@@ -7,7 +7,7 @@
 
 ### Agenda
 Module 1: Introduction & Prerequisites
-- [Homework](/Users/ohikendoit/vs_code/data_engineering_zoomcamp/week_1_basics_n_setup/homework.md) (Submitted on Jan 27, 2024)
+- [Homework](week_1_basics_n_setup/homework.md) (Submitted on Jan 27, 2024)
 
 Module 2: Workflow Orchestration
 - Homework

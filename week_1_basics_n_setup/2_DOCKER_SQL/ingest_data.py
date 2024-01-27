@@ -71,7 +71,7 @@ def main(params):
             print("Finished ingesting data into the postgres database")
             break
 
-if __name__ == '__main__':
+if __name__ == '__main__': #Use this to run as a script
     parser = argparse.ArgumentParser(description='Ingest CSV data to Postgres')
 
     parser.add_argument('--user', required=True, help='user name for postgres')

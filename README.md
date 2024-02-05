@@ -10,7 +10,7 @@ Module 1: Introduction & Prerequisites
 - [Homework](week_1_basics_n_setup/homework.md) (Submitted on Jan 27, 2024)
 
 Module 2: Workflow Orchestration
-- Homework
+- [Homework](week_2_workflow_orchestration/homework.md)
 
 Workshop 1: Data Ingestion
 - Homework

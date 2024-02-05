@@ -11,6 +11,7 @@ Module 1: Introduction & Prerequisites
 
 Module 2: Workflow Orchestration
 - [Homework](week_2_workflow_orchestration/homework.md)
+(Submitted on Feb 5, 2024)
 
 Workshop 1: Data Ingestion
 - Homework

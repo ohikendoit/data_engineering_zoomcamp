@@ -6,3 +6,4 @@ taxi_zone_lookup.csv
 *.parquet
 *.csv
 >>>>>>> 3c68cd4 (adding item to gitignore)
+week_2_workflow_orchestration/mage-zoomcamp

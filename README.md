@@ -6,15 +6,16 @@
 
 
 ### Agenda
-Module 1: Introduction & Prerequisites
-- [Homework](week_1_basics_n_setup/homework.md) (Submitted on Jan 27, 2024)
+Module 1: Introduction & Prerequisites  
+- [Homework](week_1_basics_n_setup/homework.md) (Submitted on Jan 27, 2024)  
 
-Module 2: Workflow Orchestration
-- [Homework](week_2_workflow_orchestration/homework.md)
-(Submitted on Feb 5, 2024)
+Module 2: Workflow Orchestration  
+- [Homework](week_2_workflow_orchestration/homework.md)  
+(Submitted on Feb 5, 2024)  
 
-Workshop 1: Data Ingestion
-- Homework
+Workshop 1: Data Ingestion  
+- [Homework] (workshop_dlt/homework_starter.ipynb)  
+(Submitted on Feb 11, 2024)  
 
 Module 3: Data Warehouse
 - Homework
